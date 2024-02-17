@@ -14,4 +14,5 @@ jobs:
       - run: |
           npm i --ignore-scripts
           npm run lint
+          npm run build
           npm run check
